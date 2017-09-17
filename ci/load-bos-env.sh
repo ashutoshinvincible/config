@@ -25,3 +25,4 @@ export BOSH_CLIENT_SECRET=$(vault read -field=bosh-client-secret $VAULT_HASH_BOS
 
 export BOSH_DEPLOYMENT=$PRODUCT_NAME-$FOUNDATION_NAME-$USER_NAME-$DEPLOYMENT_NAME
 
+echo "BOSH environment is loaded"
